@@ -1,0 +1,16 @@
+.loader{
+    height: 100px;
+    width: 100px;
+    border: 10px solid rgb(93, 180, 93);
+    border-top: 10px solid rgb(161, 159, 159);
+    border-radius: 50%;
+    position: relative;
+    left: 600px;
+    top: 240px;
+    animation: rotateAnimation 1s ease-in-out 0s infinite normal;
+}
+
+@keyframes rotateAnimation {
+    from{transform: rotate(0deg);}
+    to{transform: rotate(360deg);}
+}
